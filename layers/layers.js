@@ -369,3 +369,19 @@ lyr_BatasDesaKelurahan_20.set('fieldLabels', {'NAMOBJ': 'inline label', 'WADMKC'
 lyr_BatasDesaKelurahan_20.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
+
+var layersList = [
+new ol.layer.Group({
+            title: 'Basemap',
+            layers: [
+lyr_google_0,lyr_OpenStreetMap_1,lyr_HYBRID_2,
+]}),
+ 
+new ol.layer.Group({
+            title: 'data',
+            fold: 'open',
+            layers: [
+lyr_BANGUNAN1LANTAI_17,
+]}),
+];
+
