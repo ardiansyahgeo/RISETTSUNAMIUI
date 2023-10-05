@@ -381,7 +381,7 @@ new ol.layer.Group({
             title: 'data',
             fold: 'open',
             layers: [
-lyr_BANGUNAN1LANTAI_17,
+lyr_TitikBangunan1LantaiHasilPMap_19,
 ]}),
 ];
 
